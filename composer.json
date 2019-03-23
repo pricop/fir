@@ -1,0 +1,17 @@
+{
+  "name": "codefir/fir",
+  "description": "Fir. A lightweight PHP MVC Framework.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Codefir"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "name": "codefir/fir",
+    "php": ">=7.0.0",
+    "ext-mbstring": "*"
+  }
+}
