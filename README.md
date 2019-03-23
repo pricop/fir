@@ -1,4 +1,4 @@
-![Fir Framework](https://i.imgur.com/nXqX1XK.png)
+![Fir Framework](https://i.imgur.com/EffEcDG.png)
 # Fir
 Fir. A lightweight PHP MVC Framework.
 
