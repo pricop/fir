@@ -6,9 +6,11 @@
  * @param   string $value The string to be escaped
  * @return  string
  */
-function e($value)
-{
-    return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
+if (!function_exists('e')) {
+    function e($value)
+    {
+        return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
+    }
 }
 
 /**
@@ -20,15 +22,17 @@ function e($value)
  * @param   array $options The string to be appended
  * @return  string
  */
-function str_limit($value, $start = 0, $length = null, $options = [])
-{
-    $result = mb_substr($value, $start, $length);
+if (!function_exists('str_limit')) {
+    function str_limit($value, $start = 0, $length = null, $options = [])
+    {
+        $result = mb_substr($value, $start, $length);
 
-    if (mb_strlen($value) > $length && is_null($length) == false) {
-        if (isset($options['ellipsis'])) {
-            $result = $result . $options['ellipsis'];
+        if (mb_strlen($value) > $length && is_null($length) == false) {
+            if (isset($options['ellipsis'])) {
+                $result = $result . $options['ellipsis'];
+            }
         }
-    }
 
-    return $result;
+        return $result;
+    }
 }
