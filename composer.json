@@ -10,7 +10,6 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "name": "codefir/fir",
     "php": ">=7.0.0",
     "ext-mbstring": "*"
   }
