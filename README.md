@@ -136,3 +136,7 @@ defined('FIR') OR exit();
 While this documentation could be more extensive, the code is well commented and most of the things you need to know can be found straight into the examples provided within the framework.
 
 Happy coding.
+
+---
+
+[![](https://i.imgur.com/HqlXhWS.png)](https://www.browserstack.com/)
