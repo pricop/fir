@@ -4,9 +4,9 @@ define('FIR', true);
 
 // Database Settings
 define('DB_HOST', 'localhost');
-define('DB_USER', '');
-define('DB_NAME', '');
-define('DB_PASS', '');
+define('DB_USER', 'YOURDBUSER');
+define('DB_NAME', 'YOURDBNAME');
+define('DB_PASS', 'YOURDBPASS');
 define('DB_PREFIX', '');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATION', 'utf8mb4_unicode_ci');
