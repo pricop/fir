@@ -37,6 +37,25 @@ class View
     }
 
     /**
+     * @param    array $data The data to be passed to the view template
+     * @param    string $view The file path / name of the view
+     * @return    string
+     */
+    public function render($data = null, $view = null)
+    {
+        /**
+         * Start the output buffer
+         * This is needed to create the template inheritance
+         */
+        ob_start();
+
+        // Do not use %_once as some of the template files may need to be called multiple times
+        require(sprintf('%s/../../%s/%s/views/%s.php', __DIR__, PUBLIC_PATH, THEME_PATH, $view));
+
+        return ob_get_clean();
+    }
+
+    /**
      * @return string
      */
     public function message()
@@ -56,25 +75,6 @@ class View
         unset($_SESSION['message']);
 
         return $messages;
-    }
-
-    /**
-     * @param    array $data The data to be passed to the view template
-     * @param    string $view The file path / name of the view
-     * @return    string
-     */
-    public function render($data = null, $view = null)
-    {
-        /**
-         * Start the output buffer
-         * This is needed to create the template inheritance
-         */
-        ob_start();
-
-        // Do not use %_once as some of the template files may need to be called multiple times
-        require(sprintf('%s/../../%s/%s/views/%s.php', __DIR__, PUBLIC_PATH, THEME_PATH, $view));
-
-        return ob_get_clean();
     }
 
     /**
