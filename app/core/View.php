@@ -154,7 +154,8 @@ class View
      * @param $key
      * @return mixed
      */
-    public function lang($key) {
+    public function lang($key)
+    {
         return $this->lang[$key];
     }
 }
