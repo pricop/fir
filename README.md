@@ -57,7 +57,7 @@ You can now access your website using the URL you defined in `APP_PATH`.
 - Each controller **must** have a public method, called index, e.g: `public function index() {}`.
 
 #### Loading a model
-- To load a new model, use the `$this->model('Example')`
+- To load a new model, use the `$this->model('Example')` method.
 
 #### Returning a view
 - To return a view, inside your methods you would return `['content' => $this->view->render($data, 'auth/register')]`, where `$data` is an array object which contains the data that's passed to the views, while `'auth/register'` would be the view's path. 
