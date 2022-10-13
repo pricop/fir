@@ -42,7 +42,7 @@ The Fir framework started as micro-framework with the purpose of being used in p
 | MySQL >=5     |              |
 
 ### Installation
-1. Run `composer create-project codefir/fir /your-project`
+1. Run `composer create-project pricop/fir /your-project`
 2. Import the `fir.sql` file into your database.
 3. Open the `app/includes/config.php` file, and update the values `YOURDBUSER`, `YOURDBNAME`, `YOURDBPASS`, `https://localhost/your-project` with your own information.
 
