@@ -1,4 +1,4 @@
-![](https://img.shields.io/github/release/codefir/fir.svg) ![](https://img.shields.io/github/license/codefir/fir.svg?color=a25cc1) ![](https://scrutinizer-ci.com/g/codefir/fir/badges/quality-score.png?b=master) ![](https://scrutinizer-ci.com/g/codefir/fir/badges/build.png?b=master)
+![](https://img.shields.io/github/release/codefir/fir.svg) ![](https://img.shields.io/github/license/codefir/fir.svg?color=a25cc1) [![GitHub issues](https://img.shields.io/github/issues/pricop/fir)](https://github.com/pricop/fir/issues)
 
 ![Fir Framework](https://i.imgur.com/oqjl0k0.png)
 # Fir
