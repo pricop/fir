@@ -6,11 +6,6 @@ Fir. A lightweight PHP MVC Framework.
 
 The Fir framework started as micro-framework with the purpose of being used in private projects, with the strongest points being extremly fast and easy to use. Fir is not a replacement for professional frameworks, however if you want to quickly build a prototipe app, make a couple of AJAXed pages and do a couple of database calls, Fir should be a good option.
 
-**Made with Fir:**
-
-- [phpSearch](https://phpsearch.com)
-- [phpMeteo](https://phpmeteo.com)
-
 ## Features
 
 **Back-end**
